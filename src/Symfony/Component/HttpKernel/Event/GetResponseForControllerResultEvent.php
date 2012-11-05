@@ -51,4 +51,14 @@ class GetResponseForControllerResultEvent extends GetResponseEvent
     {
         return $this->controllerResult;
     }
+
+    /**
+     * Set controllerResult
+     *
+     * @param mixed $controllerResult
+     */
+    public function setControllerResult($controllerResult)
+    {
+        $this->controllerResult = $controllerResult;
+    }
 }
